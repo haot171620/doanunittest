@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebVLTea", "WebVLTea\WebVLTea.csproj", "{0765E964-9718-468B-9ED7-B2164A87FDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebVLTea.Tests", "WebVLTea.Tests\WebVLTea.Tests.csproj", "{2AF3C13F-7A0A-498F-BD92-C7C9E69CFC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0765E964-9718-468B-9ED7-B2164A87FDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0765E964-9718-468B-9ED7-B2164A87FDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0765E964-9718-468B-9ED7-B2164A87FDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0765E964-9718-468B-9ED7-B2164A87FDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF3C13F-7A0A-498F-BD92-C7C9E69CFC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF3C13F-7A0A-498F-BD92-C7C9E69CFC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF3C13F-7A0A-498F-BD92-C7C9E69CFC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF3C13F-7A0A-498F-BD92-C7C9E69CFC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebVLTea.Models.BubleTea>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Tạo mới", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <mark>@Html.DisplayNameFor(model => model.Name)</mark>
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Topping)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <mark>@Html.DisplayFor(modelItem => item.Name)</mark>
+        </td>
+        <td>
+            @item.Price.ToString("N0")
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Topping)
+        </td>
+        <td>
+            @Html.ActionLink("Chỉnh sửa", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Chi tiết", "Details", new { id=item.id }) |
+            @Html.ActionLink("Xoá", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
